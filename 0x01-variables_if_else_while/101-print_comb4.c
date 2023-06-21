@@ -14,9 +14,9 @@ int main(void)
 	{
 		for (m = n + 1; m <= '8'; m++)
 		{
-			for (p = n + 1; p <= '9'; p++)
+			for (p = m + 1; p <= '9'; p++)
 			{
-				if ((n != m) != p)
+				if (((n != m) != p))
 				{
 				putchar(n);
 				putchar(m);
